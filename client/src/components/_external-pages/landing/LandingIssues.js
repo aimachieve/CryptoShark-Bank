@@ -44,7 +44,7 @@ export default function LandingIssues() {
           <ContentStyle>
             <motion.div variants={varFadeInUp}>
               <Typography variant='h3' sx={{ color: '#1A3E6E' }}>
-                CRYPTOSHARK has resolved most of the major issues faced by the Financial industry today
+                GEMAXIS has resolved most of the major issues faced by the Financial industry today
               </Typography>
             </motion.div>
             <Grid container spacing={5} alignItems="center">
@@ -61,7 +61,7 @@ export default function LandingIssues() {
                         </Typography>
                         <Divider variant='large' sx={{ width: '70px', color: '#1A3E6E' }} />
                         <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400', textAlign: 'center' }}>
-                          Whether you are well versed with computers or not so much you will be able to create your CRYPTOSHARK account in under 10 minutes (and potentially get it funded). We have made a few simple steps for you to begin and if you require anymore assistance from a real person just click the chat button and have a live person help you get your way and explain anything else if necessary.
+                          No matter how familiar you are with computers, it won't take you more than ten minutes to set up a GEMAXIS account (and potentially get it funded). We've provided a few easy steps for you to follow, but if you need more help from a live person, just click the chat button. A live person will then help you get where you're going and, if necessary, explain anything else.
                         </Typography>
                       </Stack>
                     </CardContent>
@@ -101,7 +101,7 @@ export default function LandingIssues() {
                         </Typography>
                         <Divider variant='large' sx={{ width: '70px', color: '#1A3E6E' }} />
                         <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400', textAlign: 'center' }}>
-                          CRYPTOSHARK will soon offer a wide network of branches, however if you are not near a branch because of your location everything necessary can be done online from our website removing unnecessary need to travel, book appointments and wait in lines which additionally also helps the planet.
+                          Although GEMAXIS will soon have a large network of locations, if you are unable to visit one because of your location, you can complete all of the necessary tasks online from our website, saving you time and money while also reducing your impact on the environment.
                         </Typography>
                       </Stack>
                     </CardContent>

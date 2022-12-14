@@ -28,7 +28,7 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function LandingPage() {
   return (
-    <RootStyle title="Cryptoshark - Bank" id="move_top">
+    <RootStyle title="GEMAXIS - Bank" id="move_top">
       <LandingHero />
       <LandingAsset />
       <LandingIntro />

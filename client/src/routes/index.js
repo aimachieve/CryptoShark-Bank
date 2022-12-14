@@ -40,7 +40,7 @@ const Loadable = (Component) => (props) => {
 };
 
 export default function Router() {
-  const { user } = useAuth();
+  const { isAuthenticated, user } = useAuth();
   console.log({user})
 
   return useRoutes([
@@ -67,6 +67,7 @@ export default function Router() {
         { path: '/prohibited-restricted', element: <ProhibitedRestricted /> },
         { path: '/privacy-policy', element: <PrivacyPolicy /> },
         { path: '/quote', element: user && user.role === "admin" ? <QuoteAdmin /> : <Quote /> },
+        { path: '/my-account', element: isAuthenticated? <MyAccount /> : <LandingPage /> },
         { path: 'reset-password', element: <ResetPassword /> },
         { path: 'verify', element: <VerifyCode /> }
       ]
@@ -101,3 +102,4 @@ const ContactUs = Loadable(lazy(() => import('../pages/ContactUs')));
 const TermsConditions = Loadable(lazy(() => import('../pages/TermsConditions')));
 const ProhibitedRestricted = Loadable(lazy(() => import('../pages/ProhibitedRestricted')));
 const PrivacyPolicy = Loadable(lazy(() => import('../pages/PrivacyPolicy')));
+const MyAccount = Loadable(lazy(() => import('../pages/MyAccount')));

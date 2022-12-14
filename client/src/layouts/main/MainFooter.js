@@ -25,7 +25,7 @@ const LINKS = [
     children: [
       { name: 'xxxx, xxxx, xx, xxxx', href: '#' },
       { name: 'Phone: 0000 000 000', href: 'tel:0000 000 000' },
-      { name: 'Email: info@cryptoshark.com', href: 'mailto:info@cryptoshark.com' }
+      { name: 'Email: info@gemaxis.com', href: 'mailto:info@gemaxis.com' }
     ]
   },
   {
@@ -116,7 +116,7 @@ export default function MainFooter() {
               fontFamily: 'Poppins'
             }}
           >
-            Copyright @ 2022 CryptoShark. All Right reserved
+            Copyright @ 2022 GEMAXIS. All Right reserved
           </Typography>
         </Grid>
 

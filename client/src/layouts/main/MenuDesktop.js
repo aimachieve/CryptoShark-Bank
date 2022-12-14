@@ -262,7 +262,7 @@ export default function MenuDesktop({ isOffset, isHome, navConfig }) {
       ))}
       {isAuthenticated ? (
         <Stack direction="row" spacing={2} alignItems='center'>
-          <Typography sx={{ fontSize: '25px', fontStyle: 'italic', fontWeight: 500, color: '#1A3E6E' }}>{user.name}</Typography>
+          <Button href="my-account" variant="text" sx={{ fontSize: '25px', fontStyle: 'italic', fontWeight: 500, color: '#1A3E6E' }}>{ user && user.name}</Button>
           <Button variant="contained" onClick={logout}>
             Logout
           </Button>

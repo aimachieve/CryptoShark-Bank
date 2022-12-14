@@ -55,7 +55,7 @@ export default function AboutUs() {
                   <motion.div variants={varFadeInLeft}>
                     <Stack direction="row" alignItems="center" spacing={2}>
                       <Typography sx={{ color: '#7A7A7A' }}>
-                      CryptoShark bank the future.
+                      GEMAXIS bank the future.
                       </Typography>
                     </Stack>
                   </motion.div>

@@ -92,7 +92,7 @@ export default function LandingFaqs() {
                 FAQs
               </Typography>
             </motion.div>
-            
+
             <Grid container spacing={3} alignItems="center">
               <Grid item md={6} xs={12}>
                 <Stack spacing={3}>
@@ -103,7 +103,7 @@ export default function LandingFaqs() {
                       </AccordionSummary>
                       <AccordionDetails>
                         <Typography>
-                          The fund charges a 20% profit fee, the only way we can make money is if you profit from your investment.
+                          The fund charges a 19% profit fee, the only way we can make money is if you profit from your investment.
                         </Typography>
                       </AccordionDetails>
                     </Accordion>
@@ -138,9 +138,7 @@ export default function LandingFaqs() {
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        So to simply put it, all profit gets split into the ratio 2:8 or if you prefer percentages it would mean 20% and 80%. The (2), (20%) is for AMFEIX Bank, we take it as profit. The (8), (80%) of profit which is the larger portion is yours.
-
-                        If your account was created from a referral link AMFEIX shares 10% of your profit to the person who you got the link from. This does not mean we deduct it from your balance rather it is paid by us. On the other hand losses are bared on the clients account. Please note all accounts are updated every 24 hours.
+                        To put it simply, all profit is divided into 19% and 81%. The 19% is for AMFEIX Bank, we take it as profit. The larger portion of the profit, 81%, is yours. If you opened your account through a referral link, AMFEIX will give 10% of your profits to the person who sent you the link. This does not imply that we deduct it from your balance, but rather that we pay it. Losses, on the other hand, are borne by the client. Please keep in mind that all accounts are updated every 24 hours.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -150,7 +148,7 @@ export default function LandingFaqs() {
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        Minimum investment on the website is 0.1 BTC, however if you are visiting an AMFEIX Brokers office the minimum investment amount will be far higher. Note it is not necessary to visit us if you are investing or have invested. Due to the increased demand of appointments, only larger clients are handled.
+                        Minimum investment on the website is equivalent to 1000 USD, however if you are visiting an AMFEIX Brokers office the minimum investment amount will be far higher. It is important to note that if you are investing or have previously invested, you are not required to visit us. Due to increased appointment demand, only larger clients are served.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>

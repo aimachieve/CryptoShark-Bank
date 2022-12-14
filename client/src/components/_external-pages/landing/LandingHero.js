@@ -46,13 +46,13 @@ export default function LandingHero() {
                 <Stack spacing={3}>
                   <motion.div variants={varFadeInLeft}>
                     <Typography variant='h2' sx={{ color: '#1A3E6E' }}>
-                      CRYPTOSHARK Bank the future
+                      GEMAXIS Bank the future
                     </Typography>
                   </motion.div>
                   <motion.div variants={varFadeInLeft}>
                     <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400' }}>
-                      A seamless and secure full-reserve investment bank built on decentralised encrypted ledgers.
-                      From Fiat to Bitcoin to CRYPTOSHARK.
+                      A full-service, secure investment bank based on decentralized encrypted ledgers.
+                      From Fiat to Bitcoin to GEMAXIS.
                     </Typography>
                   </motion.div>
 

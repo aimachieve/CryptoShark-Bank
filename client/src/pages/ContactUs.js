@@ -59,7 +59,7 @@ export default function ContactUs() {
                 <Divider />
 
                 <Typography sx={{ color: '#7A7A7A' }}>
-                  Email info@cryptoshark.com
+                  Email info@gemaxis.com
                 </Typography>
                 <Divider />
 

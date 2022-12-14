@@ -79,7 +79,7 @@ export default function LandingIntro() {
                       Encryption
                     </Typography>
                     <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400', textAlign: 'center' }}>
-                      Our systems are scalable and can process any account size you require without transaction delays.
+                      Because of our systems' scalability, we can process any account size you need without experiencing transaction delays.
                     </Typography>
                   </Stack>
                 </motion.div>

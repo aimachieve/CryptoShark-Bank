@@ -52,10 +52,10 @@ export default function LandingLagest() {
                   </motion.div>
                   <motion.div variants={varFadeInLeft}>
                     <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400' }}>
-                      We aim to have the most effective and efficient bank so that you have the best experience all in one place. Our network and experience brings a service par none making you and your finances ahead of the crowd in the financial industry and thus in the world.
+                      In order to give you the best experience possible in one location, we strive to have the most effective and efficient bank. You and your finances will be ahead of the competition in the financial sector and subsequently the rest of the world thanks to our network and experience.
                       <br />
                       <br />
-                      Within your first few months you will understand how we aren’t operating like the rest of the banking and investing industry just through your investment experience.
+                      Your investment experience alone will help you realize within your first few months how we don't function like the rest of the banking and investing industry.
                     </Typography>
                   </motion.div>
                 </Stack>
