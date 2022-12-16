@@ -63,7 +63,7 @@ export default function MainNavbar() {
         sx={{
           ...(isOffset && {
             bgcolor: 'background.default',
-            height: { md: APP_BAR_DESKTOP - 60 }
+            height: { md: APP_BAR_DESKTOP - 20 }
           })
         }}
       >
@@ -80,9 +80,9 @@ export default function MainNavbar() {
             <Logo
               sx={{
                 transition: 'transform 0.3s',
-                width: {md: '220px', xs: '160px'},
+                width: {md: '130px', xs: '80px'},
                 ...(isOffset && {
-                  transform: 'scale(0.5)'
+                  transform: 'scale(0.7)'
                 })
               }}
             />
