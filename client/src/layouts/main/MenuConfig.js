@@ -26,11 +26,11 @@ const menuConfig = [
     path: '/about-us',
     icon: <Icon icon={infoFill} {...ICON_SIZE} />
   },
-  {
-    title: 'Our Services',
-    path: '/our-services',
-    icon: <Icon icon={playFill} {...ICON_SIZE} />
-  },
+  // {
+  //   title: 'Our Services',
+  //   path: '/our-services',
+  //   icon: <Icon icon={playFill} {...ICON_SIZE} />
+  // },
   // {
   //   title: 'Custom Quote',
   //   path: '/custom-quote',

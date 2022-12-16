@@ -59,7 +59,7 @@ export default function LandingHero() {
                   <motion.div variants={varFadeInLeft}>
                     <Stack direction="row" alignItems="center" spacing={2}>
                       <RegisterButton />
-                      <Button variant="outlined"> Read Whitepaper </Button>
+                      {/* <Button variant="outlined"> Read Whitepaper </Button> */}
                     </Stack>
                   </motion.div>
                 </Stack>

@@ -58,7 +58,7 @@ export default function LandingExp() {
               </Grid>
               <Grid item md={6} xs={12}>
                 <motion.div variants={varFadeInRight}>
-                  <iframe className="elementor-video-iframe" style={{ width: "100%", height: "400px" }} allowFullScreen="" title="youtube Video Player" src="https://web.archive.org/web/20200708132632if_/https://www.youtube.com/embed/8DIa3qq8eW8?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;modestbranding=0"></iframe>
+                  {/* <iframe className="elementor-video-iframe" style={{ width: "100%", height: "400px" }} allowFullScreen="" title="youtube Video Player" src="https://web.archive.org/web/20200708132632if_/https://www.youtube.com/embed/8DIa3qq8eW8?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;modestbranding=0"></iframe> */}
                 </motion.div>
               </Grid>
             </Grid>
