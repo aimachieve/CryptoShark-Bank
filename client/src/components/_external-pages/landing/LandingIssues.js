@@ -47,6 +47,20 @@ export default function LandingIssues() {
                 GEMAXIS has resolved most of the major issues faced by the Financial industry today
               </Typography>
             </motion.div>
+            <motion.div variants={varFadeInUp}>
+              <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400', textAlign: 'left' }}>
+                GEMAXIS provides a wide range of exchanges at the most competitive currency rates. Check out our partner trading platforms listed below. We regularly update the list of exchanges and add new, more beneficial options.
+                <br />
+                <br />
+                under this we least the logos(like on swapnex) of :
+                Binance
+                Okx
+                Bybit
+                Uniswap
+                Gemini
+                Pancakeswap
+              </Typography>
+            </motion.div>
             <Grid container spacing={5} alignItems="center">
               <Grid item md={4} xs={12}>
                 <motion.div variants={varFadeInLeft}>

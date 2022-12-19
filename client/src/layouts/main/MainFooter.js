@@ -9,7 +9,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@material-ui/core/styles';
 import { Grid, Link, Divider, Container, Typography, Button, Stack } from '@material-ui/core';
 //
-import SvgIconStyle from 'components/SvgIconStyle';
+import Logo from 'components/Logo'
 // ----------------------------------------------------------------------
 
 const SOCIALS = [
@@ -65,39 +65,73 @@ export default function MainFooter() {
           sx={{ textAlign: { xs: 'center', md: 'center' } }}
           spacing={5}
         >
-          {LINKS.map((list, index) => {
-            const { headline, children } = list;
-            return (
-              <Grid item xs={12} md={4} justifyContent="space-between" key={index}>
-                <Stack key={headline} spacing={2}>
-                  <Typography
-                    variant="overline"
-                    color="white"
-                    sx={{ fontFamily: 'Poppins', fontSize: 25, lineHeight: '30px', fontWeight: 600 }}
-                  >
-                    {headline}
-                  </Typography>
-                  {children.map((link) => (
-                    <Link
-                      to={link.href}
-                      key={link.name}
-                      color="white"
-                      component={RouterLink}
-                      sx={{
-                        display: 'block',
-                        fontWeight: 500,
-                        fontSize: 16,
-                        lineHeight: '24px',
-                        fontFamily: 'Poppins'
-                      }}
-                    >
-                      {link.name}
-                    </Link>
-                  ))}
-                </Stack>
-              </Grid>
-            );
-          })}
+          <Grid item xs={12} md={4.5} justifyContent="center" alignItems={'center'}>
+            <Stack spacing={2}>
+              <Logo sx={{ width: '130px', margin: 'auto' }} />
+              <Typography
+                variant="overline"
+                color="white"
+                sx={{
+                  display: 'block',
+                  fontWeight: 500,
+                  fontSize: 16,
+                  lineHeight: '24px',
+                  fontFamily: 'Poppins',
+                  textAlign: 'left'
+                }}
+              >
+                We understand the importance of the security of clients' data and pay much attention to it. We regularly update the platform, as well as the protection measures for ensuring the security and safety of both user data and funds. By registering on this website, you become our client and, therefore, agree with our Terms and Conditions and Privacy Policy statements. Also, once you start using Gemaxis products and services, you confirm that you realize and agree with all the risks that cryptocurrency sphere involves.
+              </Typography>
+            </Stack>
+          </Grid>
+          <Grid item xs={12} md={7.5}>
+            <Grid container>
+              {LINKS.map((list, index) => {
+                const { headline, children } = list;
+                return (
+                  <Grid item xs={12} md={4} justifyContent="space-between" key={index}>
+                    <Stack key={headline} spacing={2}>
+                      <Typography
+                        variant="overline"
+                        color="white"
+                        sx={{ fontFamily: 'Poppins', fontSize: 25, lineHeight: '30px', fontWeight: 600 }}
+                      >
+                        {headline}
+                      </Typography>
+                      {children.map((link) => (
+                        <Link
+                          to={link.href}
+                          key={link.name}
+                          color="white"
+                          component={RouterLink}
+                          sx={{
+                            display: 'block',
+                            fontWeight: 500,
+                            fontSize: 16,
+                            lineHeight: '24px',
+                            fontFamily: 'Poppins'
+                          }}
+                        >
+                          {link.name}
+                        </Link>
+                      ))}
+                    </Stack>
+                  </Grid>
+                );
+              })}
+            </Grid>
+            <Typography
+              color="white"
+              sx={{ fontFamily: 'Poppins', fontSize: 25, lineHeight: '30px', fontWeight: 600, marginTop: '30px', textAlign: 'center' }}
+            >
+              Payment Currency
+            </Typography>
+            <Stack direction="row" spacing={3} mt={3}>
+              <img src="/images/btc.png" alt='btc' style={{ width: '100px' }} />
+              <img src="/images/eth.png" alt='eth' style={{ width: '100px', backgroundColor: 'white' }} />
+              <img src="/images/ripple.png" alt='ethereum' style={{ width: '100px', backgroundColor: 'white' }} />
+            </Stack>
+          </Grid>
         </Grid>
       </Container>
 
