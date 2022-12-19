@@ -129,19 +129,19 @@ export default function MainFooter() {
             <Stack direction="row" spacing={3} mt={3} alignItems="center">
               <img src="/images/btc.png" alt='btc' style={{
                 width: '150px',
-                height: '40px'
+                height: '30px'
                 // opacity: 0.5,
                 // mixBlendMode: 'luminosity',
               }} />
               <img src="/images/eth.png" alt='eth' style={{
-                width: '90px',
+                width: '120px',
                 height: '70px'
                 // opacity: 0.5,
                 // mixBlendMode: 'luminosity',
               }} />
               <img src="/images/ripple.png" alt='ethereum' style={{
-                width: '150px',
-                height: '40px'
+                width: '110px',
+                height: '60px'
                 // opacity: 0.5,
                 // mixBlendMode: 'luminosity',
               }} />
