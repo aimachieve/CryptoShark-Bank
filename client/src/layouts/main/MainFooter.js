@@ -126,10 +126,25 @@ export default function MainFooter() {
             >
               Payment Currency
             </Typography>
-            <Stack direction="row" spacing={3} mt={3}>
-              <img src="/images/btc.png" alt='btc' style={{ width: '100px' }} />
-              <img src="/images/eth.png" alt='eth' style={{ width: '100px', backgroundColor: 'white' }} />
-              <img src="/images/ripple.png" alt='ethereum' style={{ width: '100px', backgroundColor: 'white' }} />
+            <Stack direction="row" spacing={3} mt={3} alignItems="center">
+              <img src="/images/btc.png" alt='btc' style={{
+                width: '150px',
+                height: '40px'
+                // opacity: 0.5,
+                // mixBlendMode: 'luminosity',
+              }} />
+              <img src="/images/eth.png" alt='eth' style={{
+                width: '90px',
+                height: '70px'
+                // opacity: 0.5,
+                // mixBlendMode: 'luminosity',
+              }} />
+              <img src="/images/ripple.png" alt='ethereum' style={{
+                width: '150px',
+                height: '40px'
+                // opacity: 0.5,
+                // mixBlendMode: 'luminosity',
+              }} />
             </Stack>
           </Grid>
         </Grid>
