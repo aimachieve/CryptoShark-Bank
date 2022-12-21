@@ -9,7 +9,8 @@ import {
   LandingExp,
   LandingLagest,
   LandingIssues,
-  LandingFaqs
+  LandingFaqs,
+  LandingExchanges
 } from '../components/_external-pages/landing';
 
 // ----------------------------------------------------------------------
@@ -35,6 +36,7 @@ export default function LandingPage() {
       <LandingExp />
       <LandingLagest />
       <LandingIssues />
+      <LandingExchanges />
       <LandingFaqs />
     </RootStyle>
   );

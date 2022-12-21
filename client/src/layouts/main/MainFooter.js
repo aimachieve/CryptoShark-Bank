@@ -69,7 +69,7 @@ export default function MainFooter() {
             <Stack spacing={2}>
               <Logo sx={{ width: '130px', margin: 'auto' }} />
               <Typography
-                variant="overline"
+                // variant="overline"
                 color="white"
                 sx={{
                   display: 'block',
