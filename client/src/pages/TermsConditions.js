@@ -41,12 +41,12 @@ export default function TermsConditions() {
           <ContentStyle>
             <motion.div variants={varFadeInUp}>
               <Stack spacing={3}>
-                <Typography variant='h3' sx={{ color: '#6EC1E4', textAlign: 'center' }}>
+                <Typography variant='h3' sx={{ color: '#09d960', textAlign: 'center' }}>
                   Terms & Conditions
                 </Typography>
                 <br />
                 <br />
-                <Typography variant='h4' sx={{ color: '#6EC1E4', textAlign: 'center' }}>
+                <Typography variant='h4' sx={{ color: '#09d960', textAlign: 'center' }}>
                   In These Conditions:
                 </Typography>
               </Stack>

@@ -48,7 +48,7 @@ export default function AboutUs() {
               <Grid item md={6} xs={12}>
                 <Stack spacing={3}>
                   <motion.div variants={varFadeInLeft}>
-                    <Typography variant='h2' sx={{ color: '#6EC1E4', textDecoration: 'true' }}>
+                    <Typography variant='h2' sx={{ color: '#09d960', textDecoration: 'true' }}>
                       About Us
                     </Typography>
                   </motion.div>

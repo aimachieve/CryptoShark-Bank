@@ -43,7 +43,7 @@ export default function LandingExchanges() {
           <ContentStyle>
             <Stack spacing={3}>
               <motion.div variants={varFadeInLeft}>
-                <Typography variant='h3' sx={{ color: '#1A3E6E', textAlign: 'center' }}>
+                <Typography variant='h3' sx={{ color: '#09d960', textAlign: 'center' }}>
                   Choose the best among more than 25 leading exchanges
                 </Typography>
               </motion.div>

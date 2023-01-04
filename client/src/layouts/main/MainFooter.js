@@ -47,9 +47,10 @@ const LINKS = [
 
 const RootStyle = styled('div')(({ theme }) => ({
   position: 'relative',
-  background: 'url(/images/footer-bg.png)',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: '100% 100%'
+  backgroundImage: "linear-gradient(to right top, #03aa4a, #44ea28)",
+  // background: 'url(/images/footer-bg.png)',
+  // backgroundRepeat: 'no-repeat',
+  // backgroundSize: '100% 100%'
 }));
 
 // ----------------------------------------------------------------------
@@ -126,7 +127,7 @@ export default function MainFooter() {
             >
               Payment Currency
             </Typography>
-            <Stack direction="row" spacing={3} mt={3} alignItems="center">
+            <Stack direction="row" spacing={3} mt={3} alignItems="center" justifyContent={'center'}>
               <img src="/images/btc.png" alt='btc' style={{
                 width: '150px',
                 height: '30px'

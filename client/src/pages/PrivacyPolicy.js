@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
         <Container maxWidth="lg">
           <ContentStyle>
             <motion.div variants={varFadeInUp}>
-              <Typography variant='h3' sx={{ color: '#6EC1E4', textAlign: 'center' }}>
+              <Typography variant='h2' sx={{ color: '#09d960', textAlign: 'center' }}>
                 Privacy Policy
               </Typography>
             </motion.div>

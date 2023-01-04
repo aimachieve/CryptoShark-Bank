@@ -88,7 +88,7 @@ export default function LandingFaqs() {
         <Container maxWidth="lg">
           <ContentStyle>
             <motion.div variants={varFadeInUp}>
-              <Typography variant='h3' sx={{ color: '#1A3E6E', textAlign: 'center' }}>
+              <Typography variant='h3' sx={{ color: '#09d960', textAlign: 'center' }}>
                 FAQs
               </Typography>
             </motion.div>
@@ -138,7 +138,7 @@ export default function LandingFaqs() {
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        To put it simply, all profit is divided into 19% and 81%. The 19% is for AMFEIX Bank, we take it as profit. The larger portion of the profit, 81%, is yours. If you opened your account through a referral link, AMFEIX will give 10% of your profits to the person who sent you the link. This does not imply that we deduct it from your balance, but rather that we pay it. Losses, on the other hand, are borne by the client. Please keep in mind that all accounts are updated every 24 hours.
+                        To put it simply, all profit is divided into 19% and 81%. The 19% is for GEMAXIS Bank, we take it as profit. The larger portion of the profit, 81%, is yours. If you opened your account through a referral link, GEMAXIS will give 10% of your profits to the person who sent you the link. This does not imply that we deduct it from your balance, but rather that we pay it. Losses, on the other hand, are borne by the client. Please keep in mind that all accounts are updated every 24 hours.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -148,7 +148,7 @@ export default function LandingFaqs() {
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        Minimum investment on the website is equivalent to 1000 USD, however if you are visiting an AMFEIX Brokers office the minimum investment amount will be far higher. It is important to note that if you are investing or have previously invested, you are not required to visit us. Due to increased appointment demand, only larger clients are served.
+                        Minimum investment on the website is equivalent to 1000 USD, however if you are visiting an GEMAXIS Brokers office the minimum investment amount will be far higher. It is important to note that if you are investing or have previously invested, you are not required to visit us. Due to increased appointment demand, only larger clients are served.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -158,7 +158,7 @@ export default function LandingFaqs() {
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        In AMFEIX we believe in freedom of will and thus we have set no minimum investment period, which means you can exit the fund at any given time.
+                        In GEMAXIS we believe in freedom of will and thus we have set no minimum investment period, which means you can exit the fund at any given time.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>

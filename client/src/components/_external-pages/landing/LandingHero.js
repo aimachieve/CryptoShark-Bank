@@ -45,7 +45,7 @@ export default function LandingHero() {
               <Grid item md={4} xs={12}>
                 <Stack spacing={3}>
                   <motion.div variants={varFadeInLeft}>
-                    <Typography variant='h2' sx={{ color: '#1A3E6E' }}>
+                    <Typography variant='h2' sx={{ color: '#09d960' }}>
                       GEMAXIS Bank the future
                     </Typography>
                   </motion.div>

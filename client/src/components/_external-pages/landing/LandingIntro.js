@@ -48,7 +48,7 @@ export default function LandingIntro() {
               <Grid item md={4} xs={12}>
                 <motion.div variants={varFadeInLeft}>
                   <Stack spacing={3} alignItems="center">
-                    <SpeedIcon sx={{ width: '60px', height: '60px' }} />
+                    <SpeedIcon sx={{ width: '60px', height: '60px', color: '#09d960' }} />
                     <Typography variant='h4' sx={{ color: '#1A3E6E' }}>
                       Efficiency
                     </Typography>
@@ -61,7 +61,7 @@ export default function LandingIntro() {
               <Grid item md={4} xs={12}>
                 <motion.div variants={varFadeInUp}>
                   <Stack spacing={3} alignItems="center">
-                    <SecurityIcon sx={{ width: '60px', height: '60px' }} />
+                    <SecurityIcon sx={{ width: '60px', height: '60px', color: '#09d960' }} />
                     <Typography variant='h4' sx={{ color: '#1A3E6E' }}>
                       Security
                     </Typography>
@@ -74,7 +74,7 @@ export default function LandingIntro() {
               <Grid item md={4} xs={12}>
                 <motion.div variants={varFadeInRight}>
                   <Stack spacing={3} alignItems="center">
-                    <LinkIcon sx={{ width: '60px', height: '60px' }} />
+                    <LinkIcon sx={{ width: '60px', height: '60px', color: '#09d960' }} />
                     <Typography variant='h4' sx={{ color: '#1A3E6E' }}>
                       Encryption
                     </Typography>

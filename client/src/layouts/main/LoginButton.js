@@ -26,7 +26,7 @@ export default function LoginButton() {
 
   return (
     <>
-      <Button variant="contained" sx={{backgroundColor: "#1A3E6E", borderColor: '#1A3E6E', "&:hover": {bgcolor: 'white', color: "#1A3E6E", border: '0.5px solid #1A3E6E'}}} onClick={handleClickOpen}>
+      <Button variant="contained" sx={{backgroundColor: "#09d960", borderColor: '#09d960', "&:hover": {bgcolor: 'white', color: "#09d960"}}} onClick={handleClickOpen}>
         Login
       </Button>
       <Dialog
@@ -52,7 +52,7 @@ export default function LoginButton() {
           <Logo sx={{ mx: "auto", width: '250px' }} />
           <Typography
             variant="h2"
-            color="black"
+            color="#09d960"
             sx={{
               fontWeight: 400,
               mb: 5,
@@ -68,7 +68,7 @@ export default function LoginButton() {
             <Button
               variant="outlined"
               size="large"
-              sx={{ ml: 2, borderColor: "#131025", color: "#131025" }}
+              sx={{ ml: 2, borderColor: "#09d960", color: "#09d960" }}
               onClick={() => setAuthModal('register')}
             >
               Create Account

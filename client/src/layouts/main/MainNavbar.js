@@ -23,7 +23,7 @@ const APP_BAR_DESKTOP = 122;
 
 const ToolbarStyle = styled(Toolbar)(({ theme }) => ({
   height: APP_BAR_MOBILE,
-  backgroundColor: "#5DB1F9",
+  backgroundImage: "linear-gradient(to right top, #03aa4a, #44ea28)",
   transition: theme.transitions.create(['height', 'background-color'], {
     easing: theme.transitions.easing.easeInOut,
     duration: theme.transitions.duration.longer

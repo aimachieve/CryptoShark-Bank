@@ -126,7 +126,7 @@ export default function LoginForm() {
           </Typography>
         </Stack>
 
-        <LoadingButton fullWidth size="large" type="submit" variant="contained" loading={isSubmitting} sx={{ backgroundColor: '#131025' }}>
+        <LoadingButton fullWidth size="large" type="submit" variant="contained" loading={isSubmitting} sx={{ backgroundColor: '#09d960' }}>
           Log in
         </LoadingButton>
       </Form>

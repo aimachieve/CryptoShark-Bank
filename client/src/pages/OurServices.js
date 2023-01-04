@@ -57,23 +57,23 @@ export default function OurServices() {
                   <Card sx={{ minWidth: 275 }}>
                     <CardContent>
                       <Stack spacing={3}>
-                        <Typography variant='h3' sx={{ color: '#6EC1E4' }}>
+                        <Typography variant='h3' sx={{ color: '#09d960' }}>
                           Service1
                         </Typography>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service1
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service1
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service1
                           </Typography>
@@ -89,23 +89,23 @@ export default function OurServices() {
                   <Card sx={{ minWidth: 275 }}>
                     <CardContent>
                       <Stack spacing={3}>
-                        <Typography variant='h3' sx={{ color: '#6EC1E4' }}>
+                        <Typography variant='h3' sx={{ color: '#09d960' }}>
                           Service2
                         </Typography>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service2
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service2
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service2
                           </Typography>
@@ -121,23 +121,23 @@ export default function OurServices() {
                   <Card sx={{ minWidth: 275 }}>
                     <CardContent>
                       <Stack spacing={3}>
-                        <Typography variant='h3' sx={{ color: '#6EC1E4' }}>
+                        <Typography variant='h3' sx={{ color: '#09d960' }}>
                         Service3
                         </Typography>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service3
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service3
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service3
                           </Typography>
@@ -153,23 +153,23 @@ export default function OurServices() {
                   <Card sx={{ minWidth: 275 }}>
                     <CardContent>
                       <Stack spacing={3}>
-                        <Typography variant='h3' sx={{ color: '#6EC1E4' }}>
+                        <Typography variant='h3' sx={{ color: '#09d960' }}>
                         Service4
                         </Typography>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service4
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service4
                           </Typography>
                         </Stack>
                         <Stack spacing={2} direction="row" alignItems="center">
-                          <DoubleArrowIcon sx={{ color: "#6EC1E4" }} />
+                          <DoubleArrowIcon sx={{ color: "#09d960" }} />
                           <Typography sx={{ color: '#7A7A7A' }}>
                             Service4
                           </Typography>

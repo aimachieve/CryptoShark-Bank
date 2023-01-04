@@ -43,7 +43,7 @@ export default function LandingIssues() {
         <Container maxWidth="lg">
           <ContentStyle>
             <motion.div variants={varFadeInUp}>
-              <Typography variant='h3' sx={{ color: '#1A3E6E' }}>
+              <Typography variant='h3' sx={{ color: '#09d960' }}>
                 GEMAXIS has resolved most of the major issues faced by the Financial industry today
               </Typography>
             </motion.div>
@@ -70,7 +70,7 @@ export default function LandingIssues() {
                   }}>
                     <CardContent>
                       <Stack spacing={3} alignItems="center">
-                        <Typography variant='h5' sx={{ color: '#1A3E6E' }}>
+                        <Typography variant='h5' sx={{ color: '#09d960' }}>
                           Traditional Banking/Investing is complicated
                         </Typography>
                         <Divider variant='large' sx={{ width: '70px', color: '#1A3E6E' }} />
@@ -90,7 +90,7 @@ export default function LandingIssues() {
                   }}>
                     <CardContent>
                       <Stack spacing={3} alignItems="center">
-                        <Typography variant='h5' sx={{ color: '#1A3E6E' }}>
+                        <Typography variant='h5' sx={{ color: '#09d960' }}>
                           High losses for self cryptocurrency trading
                         </Typography>
                         <Divider variant='large' sx={{ width: '70px', color: '#1A3E6E' }} />
@@ -110,7 +110,7 @@ export default function LandingIssues() {
                   }}>
                     <CardContent>
                       <Stack spacing={3} alignItems="center">
-                        <Typography variant='h5' sx={{ color: '#1A3E6E' }}>
+                        <Typography variant='h5' sx={{ color: '#09d960' }}>
                           Lack of coverage
                         </Typography>
                         <Divider variant='large' sx={{ width: '70px', color: '#1A3E6E' }} />
@@ -123,7 +123,7 @@ export default function LandingIssues() {
                 </motion.div>
               </Grid>
             </Grid>
-            <Button variant='contained'>Learn More</Button>
+            {/* <Button variant='contained'>Learn More</Button> */}
           </ContentStyle>
         </Container>
       </RootStyle>

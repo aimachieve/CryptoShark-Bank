@@ -26,7 +26,7 @@ export default function RegisterButton() {
 
   return (
     <>
-      <Button variant="outlined" sx={{ color: "#1A3E6E", borderColor: "#1A3E6E", bgcolor: 'white', "&:hover": {bgcolor: '#1A3E6E', color: "white"}}} onClick={handleClickOpen}>
+      <Button variant="outlined" sx={{ color: "#09d960", borderColor: "#09d960", bgcolor: 'white', "&:hover": {bgcolor: '#09d960', color: "white", borderColor: "#09d960"}}} onClick={handleClickOpen}>
         Create Account
       </Button>
       <Dialog
@@ -52,7 +52,7 @@ export default function RegisterButton() {
           <Logo sx={{ mx: "auto", width: '250px' }} />
           <Typography
             variant="h2"
-            color="black"
+            color="#09d960"
             sx={{
               fontWeight: 400,
               mb: 5,
@@ -68,7 +68,7 @@ export default function RegisterButton() {
             <Button
               variant="outlined"
               size="large"
-              sx={{ ml: 2, borderColor: "#131025", color: "#131025" }}
+              sx={{ ml: 2, borderColor: "#09d960", color: "#09d960" }}
               onClick={() => setAuthModal("login")}
             >
               Login

@@ -118,7 +118,7 @@ export default function RegisterForm() {
             helperText={touched.password && errors.password}
           />
 
-          <LoadingButton fullWidth size="large" type="submit" variant="contained" loading={isSubmitting} sx={{backgroundColor: '#131025'}}>
+          <LoadingButton fullWidth size="large" type="submit" variant="contained" loading={isSubmitting} sx={{backgroundColor: '#09d960'}}>
             Create Account
           </LoadingButton>
         </Stack>

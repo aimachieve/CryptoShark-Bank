@@ -1,5 +1,6 @@
 export { default as LandingHero } from './LandingHero';
 export { default as LandingAsset } from './LandingAsset';
+export { default as LandingCommunity } from './LandingCommunity';
 export { default as LandingIntro } from './LandingIntro';
 export { default as LandingExp } from './LandingExp';
 export { default as LandingLagest } from './LandingLagest';

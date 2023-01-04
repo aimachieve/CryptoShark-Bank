@@ -45,7 +45,7 @@ export default function LandingLagest() {
               <Grid item md={6} xs={12}>
                 <Stack spacing={3}>
                   <motion.div variants={varFadeInLeft}>
-                    <Typography variant='h3' sx={{ color: '#1A3E6E' }}>
+                    <Typography variant='h3' sx={{ color: '#09d960' }}>
                       The world’s largest and most trusted Bitcoin Bank
 
                     </Typography>

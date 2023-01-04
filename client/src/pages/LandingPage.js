@@ -5,6 +5,7 @@ import Page from '../components/Page';
 import {
   LandingHero,
   LandingAsset,
+  LandingCommunity,
   LandingIntro,
   LandingExp,
   LandingLagest,
@@ -32,6 +33,7 @@ export default function LandingPage() {
     <RootStyle title="GEMAXIS - Bank" id="move_top">
       <LandingHero />
       <LandingAsset />
+      <LandingCommunity />
       <LandingIntro />
       <LandingExp />
       <LandingLagest />

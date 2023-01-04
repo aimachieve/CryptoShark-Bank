@@ -45,7 +45,7 @@ export default function LandingAsset() {
               <Grid item md={6} xs={12}>
                 <Stack spacing={3}>
                   <motion.div variants={varFadeInLeft}>
-                    <Typography variant='h2' sx={{ color: '#1A3E6E' }}>
+                    <Typography variant='h2' sx={{ color: '#09d960' }}>
                       You are the custodian of your asset
                     </Typography>
                   </motion.div>
@@ -54,7 +54,7 @@ export default function LandingAsset() {
               <Grid item md={6} xs={12}>
                 <motion.div variants={varFadeInLeft}>
                   <Typography sx={{ color: '#1A3E6E', fontSize: '20px', fontWeight: '400' }}>
-                    With AMFEIX, you have complete control over your assets. Furthermore, with positive and negative market volatility, we provide a safe way to invest in the market, acting as a hedge against difficult market conditions to keep your assets safe.
+                    With GEMAXIS, you have complete control over your assets. Furthermore, with positive and negative market volatility, we provide a safe way to invest in the market, acting as a hedge against difficult market conditions to keep your assets safe.
                     <br />
                     <br />
                     In addition, we offer our services globally, efficiently, securely, and at a low cost to anyone with an internet connection. All you have to do is sign up and start investing. On the getting started page, you can learn more about how to create an account.

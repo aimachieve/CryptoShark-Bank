@@ -46,7 +46,7 @@ export default function ContactUs() {
         <Container maxWidth="lg">
           <ContentStyle>
             <motion.div variants={varFadeInUp}>
-              <Typography variant='h3' sx={{ color: '#54595F', textAlign: 'center' }}>
+              <Typography variant='h3' sx={{ color: '#09d960', textAlign: 'center' }}>
                 Contact us
               </Typography>
             </motion.div>
@@ -71,7 +71,7 @@ export default function ContactUs() {
             </motion.div>
 
             <motion.div variants={varFadeInUp}>
-              <Typography variant='h2' sx={{ color: '#54595F', textAlign: 'center' }}>
+              <Typography variant='h2' sx={{ color: '#09d960', textAlign: 'center' }}>
                 Contact From
               </Typography>
             </motion.div>
@@ -143,7 +143,7 @@ export default function ContactUs() {
             </motion.div>
 
             <motion.div variants={varFadeInUp}>
-              <Button variant='contained' sx={{ bgcolor: '#FDB900', width: '80px', marginLeft: '50% !important' }}>
+              <Button variant='contained' sx={{ bgcolor: '#09d960', width: '80px', marginLeft: '50% !important' }}>
                 Submit
               </Button>
             </motion.div>
