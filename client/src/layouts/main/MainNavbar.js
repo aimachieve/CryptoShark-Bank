@@ -82,7 +82,7 @@ export default function MainNavbar() {
                 transition: 'transform 0.3s',
                 width: {md: '130px', xs: '80px'},
                 ...(isOffset && {
-                  transform: 'scale(0.7)'
+                  transform: 'scale(0.8)'
                 })
               }}
             />

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 // material
 import { styled } from '@material-ui/core/styles';
-import { Container, Typography, Stack, Grid, Button } from '@material-ui/core';
+import { Container, Typography, Stack, Grid, Button, Divider } from '@material-ui/core';
 //
 import { varWrapEnter, varFadeInRight, varFadeInLeft } from '../../animate';
 import RegisterButton from '../../../layouts/main/RegisterButton'
